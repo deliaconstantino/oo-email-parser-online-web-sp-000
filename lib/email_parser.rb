@@ -12,8 +12,8 @@ def self.new(emails)
 end
 
 def parse
-  email_array = self.split(/, | /)
-  email_array.collect do {}
+  email_array = self.split(/, | /).uniq.
+  email_array.uniq
 end
 
 
