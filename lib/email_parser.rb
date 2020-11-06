@@ -7,13 +7,13 @@ class EmailAddressParser
 
   attr_accessor
 
-def initialize(emails)
- emails.split(/, | /)
+def self.new(emails)
+ self.parse
 end
 
-# def parse
-#   self.split(", ")
-# end
+def parse
+  self.split(/, | /)
+end
 
 
 
