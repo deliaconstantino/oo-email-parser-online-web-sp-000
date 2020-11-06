@@ -9,10 +9,10 @@ class EmailAddressParser
 
 def self.new(emails)
   @emails = emails
-  self.parse
+  self.class.parse
 end
 
-def parse
+def self.parse
   email_array = @emails.split(/, | /)
 end
 
