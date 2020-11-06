@@ -4,20 +4,13 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-
 attr_accessor :emails
+  def self.new(emails)
+   @emails = emails
+  end
 
-def self.new(emails)
- @emails = emails
- #^this is a string
-end
-
-def parse
-  #this is an instacne method to turn our @emails string into an array
-  @emails.split(/, | /).uniq
-
-end
-
-
+  def parse
+    @emails.split(/, | /).uniq
+  end
 
 end
