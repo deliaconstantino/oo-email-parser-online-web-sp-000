@@ -8,7 +8,7 @@ class EmailAddressParser
   attr_accessor
 
 def self.new(emails)
- self.parse
+ emails.parse
 end
 
 def parse
