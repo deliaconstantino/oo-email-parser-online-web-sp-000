@@ -8,12 +8,11 @@ class EmailAddressParser
   attr_accessor
 
 def initialize(emails)
-  parse
+ emails.parse
 end
 
 def parse
-  @emails.split(/, | /)
-
+  self.split(/, | /)
 end
 
 
