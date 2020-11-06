@@ -24,8 +24,12 @@ class EmailAddressParser
    @emails = emails
   end
 
-  def parse
-    puts "hi"
+  def email
+    @emails
   end
+
+  # def parse
+  #   puts "hi"
+  # end
 
 end
