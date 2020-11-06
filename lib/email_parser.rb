@@ -4,16 +4,16 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  # attr_accessor :emails
+  attr_accessor :emails
 
 
 def self.new(emails)
-  @@emails = emails
-  self.class.parse
+  @emails = emails
+  self.parse
 end
 
-def self.parse
-  email_array = @@emails.split(/, | /)
+def parse
+  email_array = @emails.split(/, | /)
 end
 
 
