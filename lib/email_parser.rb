@@ -5,8 +5,7 @@
 
 class EmailAddressParser
 
-
-
-
+def self.new(emails)
+end
 
 end
