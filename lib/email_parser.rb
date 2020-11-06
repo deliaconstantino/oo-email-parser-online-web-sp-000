@@ -5,15 +5,16 @@
 
 class EmailAddressParser
 
-  attr_accessor
+  attr_accessor :emails
 
 def self.new(emails)
- emails.parse
+ @emails = emails  
+ #^this is a string
 end
 
 def parse
-  email_array = self.split(/, | /).uniq.
-  email_array.uniq
+  #this is an instacne method to turn our @emails string into an array
+  
 end
 
 
