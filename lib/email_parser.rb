@@ -8,13 +8,13 @@ class EmailAddressParser
   attr_accessor :emails
 
 def self.new(emails)
- @emails = emails  
+ @emails = emails
  #^this is a string
 end
 
 def parse
   #this is an instacne method to turn our @emails string into an array
-  
+
 end
 
 
