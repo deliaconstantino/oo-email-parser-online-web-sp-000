@@ -5,7 +5,7 @@
 
 class EmailAddressParser
   # attr_accessor :emails
-  
+
 
 def self.new(emails)
   @@emails = emails
@@ -13,6 +13,7 @@ def self.new(emails)
 end
 
 def self.parse
+end
 
 
 
