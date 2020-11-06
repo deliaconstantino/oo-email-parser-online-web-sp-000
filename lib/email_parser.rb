@@ -9,6 +9,7 @@ def self.new(emails)
   self.parse
 end
 
-
+def self.parse
+  
 
 end
