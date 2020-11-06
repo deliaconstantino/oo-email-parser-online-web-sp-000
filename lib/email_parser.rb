@@ -14,7 +14,7 @@ end
 
 def parse
   #this is an instacne method to turn our @emails string into an array
-  @emails.split(/, | /)
+  @emails.split(/, | /).uniq
 
 end
 
