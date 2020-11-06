@@ -12,7 +12,7 @@ def initialize(emails)
 end
 
 def parse
-  self.split(/, | /)
+  self.split("/, | /")
 end
 
 
