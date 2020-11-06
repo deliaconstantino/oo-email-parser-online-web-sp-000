@@ -7,9 +7,7 @@ class EmailAddressParser
 
   attr_accessor :emails
 
-def self.new(emails)
-  email = emails.split(/, | /)
-  email.collect do
+def initialize(emails)
   @emails = emails
 end
 
