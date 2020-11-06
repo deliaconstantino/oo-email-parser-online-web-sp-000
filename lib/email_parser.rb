@@ -10,7 +10,9 @@ attr_accessor :emails
   end
 
   def parse
-    @emails.split(/, | /).uniq
+    puts "hi"  
   end
 
 end
+
+@emails.split(/, | /).uniq
