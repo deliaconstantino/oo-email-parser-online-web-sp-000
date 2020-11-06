@@ -9,7 +9,7 @@ class EmailAddressParser
 
 def self.new(emails)
   @emails = emails
-  self.class.parse
+  self.parse
 end
 
 def self.parse
