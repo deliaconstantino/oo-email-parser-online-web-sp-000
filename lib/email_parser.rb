@@ -13,7 +13,7 @@ def self.new(emails)
 end
 
 def self.parse
-  email_array = @@emails.split 
+  email_array = @@emails.split(/,| /)
 end
 
 
