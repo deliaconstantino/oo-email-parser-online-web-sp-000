@@ -4,17 +4,39 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-attr_accessor :emails
+# attr_accessor :emails
 
+  @@emails = []
 
   def self.new(emails)
-   @emails = emails
+   @@emails << emails.to_a
+   self.class.parse
   end
 
-  def parse
-    puts "hi"
+  def self.parse
+  @@emails.to_s
   end
 end
+
+
+
+
+
+
+
+
+# class EmailAddressParser
+# attr_accessor :emails
+# 
+# 
+#   def self.new(emails)
+#    @emails = emails
+#   end
+# 
+#   def parse
+#     puts "hi"
+#   end
+# end
 
 # @emails.split(/, | /).uniq
 #
