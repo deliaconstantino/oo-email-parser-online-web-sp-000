@@ -27,12 +27,12 @@ end
 
 # class EmailAddressParser
 # attr_accessor :emails
-# 
-# 
+#
+#
 #   def self.new(emails)
 #    @emails = emails
 #   end
-# 
+#
 #   def parse
 #     puts "hi"
 #   end
